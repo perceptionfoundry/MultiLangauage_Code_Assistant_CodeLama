@@ -1,0 +1,5 @@
+#!/Users/shahrukh/Documents/GitHub/MultiLangauage_Code_Assistant_CodeLama/venv/bin/python3.11
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

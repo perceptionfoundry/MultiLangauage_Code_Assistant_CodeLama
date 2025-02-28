@@ -1,0 +1,13 @@
+prefix=/Users/shahrukh/Documents/GitHub/MultiLangauage_Code_Assistant_CodeLama/venv
+exec_prefix=/Users/shahrukh/Documents/GitHub/MultiLangauage_Code_Assistant_CodeLama/venv
+libdir=/Users/shahrukh/Documents/GitHub/MultiLangauage_Code_Assistant_CodeLama/venv/lib
+sharedlibdir=/Users/shahrukh/Documents/GitHub/MultiLangauage_Code_Assistant_CodeLama/venv/lib
+includedir=/Users/shahrukh/Documents/GitHub/MultiLangauage_Code_Assistant_CodeLama/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
